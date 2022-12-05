@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import { useWindowWidth } from "@react-hook/window-size"
 import { ThreadOptions } from "../types"
 import profilePic from "../public/avatar2.png"
@@ -86,7 +86,7 @@ const ThreadOverview = ({ data, query }: ThreadOverviewProps) => {
                 )} */}
             </Box>
         </Box>
-    )
+    );
 }
 
 export default ThreadOverview

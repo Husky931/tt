@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import { flushSync } from "react-dom"
 import { useRouter } from "next/router"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import { Response, User, SingleThread } from "../../types"
 import profilePic from "../../public/avatar2.png"
 import ThumbUpIcon from "@mui/icons-material/ThumbUp"

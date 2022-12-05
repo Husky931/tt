@@ -48,7 +48,7 @@ const CategoriesBoxMob: React.FC<{ data: ThreadOptions[] | [] }> = ({ data }) =>
                     </div>
                 </div>
             </Box>
-        )
+        );
 }
 
 export default CategoriesBoxMob

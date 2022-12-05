@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box"
 import Dialog from "@mui/material/Dialog"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import logo from "../../public/logo_colored_thick.png"
 import Login from "./Login"
 import Register from "./Register"

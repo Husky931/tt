@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import { ThreadOptions } from "../../types"
 import profilePic from "../../public/avatar2.png"
 import Box from "@mui/material/Box"
@@ -40,7 +40,7 @@ const ThreadLatest: React.FC<{ data: ThreadOptions }> = ({ data }) => {
                 <div>{data?.attributes.updatedAt.split("T")[0]}</div>
             </Box>
         </Box>
-    )
+    );
 }
 
 export default ThreadLatest

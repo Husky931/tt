@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react"
 import { flushSync } from "react-dom"
 import { useRouter } from "next/router"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import { ThreadOptions, ThreadAnswer, User } from "../../types"
 import profilePic from "../../public/avatar2.png"
 import PostReply from "./PostReply"

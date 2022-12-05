@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useUser } from "../context/user"
 import { unsetToken as logout } from "../pages/api/auth/js-cookie"
-import Image from "next/image"
+import Image from "next/legacy/image";
 import logo from "../public/logo.png"
 import AppBar from "@mui/material/AppBar"
 import Avatar from "@mui/material/Avatar"
