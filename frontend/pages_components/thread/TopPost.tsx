@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import { flushSync } from "react-dom"
 import { useRouter } from "next/router"
-import Image from "next/legacy/image";
+import Image from "next/legacy/image"
 import { Response, User, SingleThread } from "../../types"
 import profilePic from "../../public/avatar2.png"
 import ThumbUpIcon from "@mui/icons-material/ThumbUp"
@@ -94,12 +94,7 @@ const TopPost: React.FC<TopPostProps> = ({ data, user, activateReply }) => {
             </div>
             <div className="flex justify-start items-center">
                 <div className="w-[58px] h-[58px]">
-                    <Image
-                        src={profilePic}
-                        width="100%"
-                        height="100%"
-                        className="rounded"
-                    />
+                    <Image src={profilePic} fill className="rounded" />
                 </div>
                 <div className="flex flex-col mx-[8px]">
                     <div className="font-bold text-[15px] my-1">
